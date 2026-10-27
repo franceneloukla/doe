@@ -4,33 +4,33 @@
   "target_url": "https://www.vakinha.com.br/vaquinha/juntos-pela-familia-de-joans",
   "note": "Pacote publicado pelo Vercel: as 5 páginas da raiz + assets/. Paths relativos à raiz do repo. O inventário não se lista (inventory.json é metadado, não conteúdo). Assets com 'origin' preenchido foram capturados do alvo; os demais foram escritos pela equipe.",
   "totals": {
-    "files": 30,
-    "bytes": 711271,
-    "kb": 694.6,
+    "files": 26,
+    "bytes": 669916,
+    "kb": 654.2,
     "by_category": {
       "css": {
         "files": 3,
-        "bytes": 65555
+        "bytes": 63577
       },
       "fonts": {
         "files": 10,
         "bytes": 246928
       },
       "img": {
-        "files": 9,
-        "bytes": 214576
+        "files": 5,
+        "bytes": 181056
       },
       "js": {
         "files": 2,
         "bytes": 69086
       },
+      "paginas": {
+        "files": 5,
+        "bytes": 104076
+      },
       "qr": {
         "files": 1,
         "bytes": 5193
-      },
-      "paginas": {
-        "files": 5,
-        "bytes": 109933
       }
     }
   },
@@ -48,14 +48,13 @@
       "category": "css",
       "bytes": 5062,
       "sha256": "f6c2492355a699e15f40186ae573e3f52be5e20f5231e2e953e1d0b250c46c6c",
-      "origin": "gerado a partir de https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700&display=swap",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "gerado a partir de https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700&display=swap"
     },
     {
       "path": "assets/css/style.css",
       "category": "css",
-      "bytes": 31564,
-      "sha256": "a5e4cbf03ef8e0a93d573a2599c2135b7d4a74b2530bde7a663c6040c362696f",
+      "bytes": 29586,
+      "sha256": "72adaaed49ac6ca05932906d9b5c3b86e1876b56170bc0abd05c27856fd30939",
       "origin": null,
       "origin_note": "escrito pela equipe (não vem do alvo)"
     },
@@ -64,48 +63,42 @@
       "category": "fonts",
       "bytes": 5612,
       "sha256": "8b9fc9737043f88c1a9a7195c27a239bd329cc33d928ffb67736c61ae7a1dbbd",
-      "origin": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwXjeu.woff2",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwXjeu.woff2"
     },
     {
       "path": "assets/fonts/lato-400.woff2",
       "category": "fonts",
       "bytes": 23580,
       "sha256": "918b7dc3e2e2d015c16ce08b57bcb64d2253bafc1707658f361e72865498e537",
-      "origin": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wXg.woff2",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wXg.woff2"
     },
     {
       "path": "assets/fonts/lato-700-latin-ext.woff2",
       "category": "fonts",
       "bytes": 5552,
       "sha256": "3a5797f440bc67b59830cad81e59a71011e35cb45ed7f747b61a69b0a9b0d6ae",
-      "origin": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2"
     },
     {
       "path": "assets/fonts/lato-700.woff2",
       "category": "fonts",
       "bytes": 23040,
       "sha256": "c447dd7677b419db7b21dbdfc6277c7816a913ffda76fd2e52702df538de0e49",
-      "origin": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPGQ.woff2",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPGQ.woff2"
     },
     {
       "path": "assets/fonts/lato-900-latin-ext.woff2",
       "category": "fonts",
       "bytes": 5640,
       "sha256": "e266d64fae0958748c289b2288e29991b4b8386eb4935517c4544a2478cfb703",
-      "origin": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwaPGR_p.woff2",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwaPGR_p.woff2"
     },
     {
       "path": "assets/fonts/lato-900.woff2",
       "category": "fonts",
       "bytes": 22504,
       "sha256": "08664859baab5ed98f0bf818ed77e38464ff1826dc6406d5ecbd651409afbd92",
-      "origin": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwiPGQ.woff2",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwiPGQ.woff2"
     },
     {
       "path": "assets/fonts/montserrat-400-latin-ext.woff2",
@@ -128,48 +121,14 @@
       "category": "fonts",
       "bytes": 33532,
       "sha256": "a59fcc944a712e213a2f3bd994367129217c75f24a9155a5a3c1a0f5fd2cc9a7",
-      "origin": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aXpsog.woff2",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aXpsog.woff2"
     },
     {
       "path": "assets/fonts/montserrat-700.woff2",
       "category": "fonts",
       "bytes": 18824,
       "sha256": "f9d9e65b15372cebcafc3acd1e664a564c5c4b23278de4d5760de9a13c530371",
-      "origin": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
-    },
-    {
-      "path": "assets/img/avatar-1.jpg",
-      "category": "img",
-      "bytes": 2923,
-      "sha256": "1a23b4ad81cc18a0ce22bfbdfe725c58644c5ea272e3fbc21e264f88d58730d7",
-      "origin": "https://static.vakinha.com.br/uploads/user/avatar/24638869/api.png?ims=225x225",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
-    },
-    {
-      "path": "assets/img/avatar-2.jpg",
-      "category": "img",
-      "bytes": 13955,
-      "sha256": "b63f9a6cca9b40703e2afc50f957b95d71983ef85caf13be5786dfd47ea07456",
-      "origin": "https://static.vakinha.com.br/uploads/user/avatar/24637770/BA730856-00E9-4126-947E-B96B9A0C68C0.jpg?ims=225x225",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
-    },
-    {
-      "path": "assets/img/avatar-3.jpg",
-      "category": "img",
-      "bytes": 3682,
-      "sha256": "86107afcf1ecaa91874e37c609de2642e9ee15e382bb33e39910b73c0af14097",
-      "origin": "https://static.vakinha.com.br/uploads/user/avatar/4595145/api.png?ims=225x225",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
-    },
-    {
-      "path": "assets/img/avatar-4.jpg",
-      "category": "img",
-      "bytes": 12960,
-      "sha256": "a3f8f8dbefc89fa7cea29d75cf27f340a22467650b0ac38b811c392a6394278d",
-      "origin": "https://static.vakinha.com.br/uploads/user/avatar/24630657/fdb46df2-15fb-40c8-9958-32d4e4d21001.jpeg?ims=225x225",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2"
     },
     {
       "path": "assets/img/badge-1.png",
@@ -177,7 +136,9 @@
       "bytes": 12008,
       "sha256": "5ecb88835b75c67fe93b391f00b199408681468e001a2f5ab0b8498e299a440e",
       "origin": "https://static.vakinha.com.br/uploads/badge/image/2/top_week_most_loved.png",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "format": "PNG",
+      "width": 104,
+      "height": 104
     },
     {
       "path": "assets/img/badge-2.png",
@@ -185,7 +146,9 @@
       "bytes": 10014,
       "sha256": "7df381e0077d181f131e9fd1d2203beebc56c10ce9063ed2e42589656804198a",
       "origin": "https://static.vakinha.com.br/uploads/badge/image/3/top_most_loved_category.png",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "format": "PNG",
+      "width": 104,
+      "height": 104
     },
     {
       "path": "assets/img/hero-campanha.jpg",
@@ -193,7 +156,9 @@
       "bytes": 146117,
       "sha256": "9c41e3ffc1f7026ada6e0a0be58758b3c4876678ae365bbace45fc7322673e98",
       "origin": "https://static.vakinha.com.br/uploads/vakinha/image/6403250/1792617041.25.jpg?ims=1200x630",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "format": "JPEG",
+      "width": 1200,
+      "height": 630
     },
     {
       "path": "assets/img/logo-vakinha.png",
@@ -201,7 +166,9 @@
       "bytes": 6465,
       "sha256": "c9faebf738f31eb03c21b46b6a51bb6295c8a69253766747ea03d9d3808ba836",
       "origin": "https://static.vakinha.com.br/static/v4/logo.png",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "format": "PNG",
+      "width": 400,
+      "height": 114
     },
     {
       "path": "assets/img/selo-vakinha.png",
@@ -209,7 +176,9 @@
       "bytes": 6452,
       "sha256": "7f3464e3468be3b8f8fa373b8aca7e11434c9a81dab71a8f06cf83dc51745905",
       "origin": "https://static.vakinha.com.br/static/v4/SELO.png",
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "format": "PNG",
+      "width": 104,
+      "height": 36
     },
     {
       "path": "assets/js/app.js",
@@ -233,7 +202,10 @@
       "bytes": 5193,
       "sha256": "f6c8b8583f533abd4e48581cb12073d2b97535fe36f420228ddc1062eaa27dca",
       "origin": null,
-      "origin_note": "escrito pela equipe (não vem do alvo)"
+      "origin_note": "escrito pela equipe (não vem do alvo)",
+      "format": "PNG",
+      "width": 732,
+      "height": 732
     },
     {
       "path": "cartao.html",
@@ -254,8 +226,8 @@
     {
       "path": "index.html",
       "category": "paginas",
-      "bytes": 41520,
-      "sha256": "7c1b04cf76ae61f1c410e5bc33f177108efcd3bb6ae0a564f3b5d422797fc0d0",
+      "bytes": 35663,
+      "sha256": "aed3c17692d8db877528c8a7fc000e39ba6431afb2e497bddaf72d7734edd13e",
       "origin": null,
       "origin_note": "escrito pela equipe (não vem do alvo)"
     },
@@ -276,5 +248,5 @@
       "origin_note": "escrito pela equipe (não vem do alvo)"
     }
   ],
-  "regenerated_at": "2026-10-27T09:14:31"
+  "regenerated_at": "2026-10-27T09:35:31"
 }

@@ -60,7 +60,7 @@ index.html  →  doar.html  →  pix.html     →  obrigado.html
 
 | Arquivo | Conteúdo |
 |---|---|
-| `index.html` | página da campanha — hero, barra de progresso, sidebar (arrecadado/meta/corações/apoiadores), abas (Sobre, Atualizações, Quem ajudou, Vakinha Premiada, Selos), comentários, FAQ, outras histórias, rodapé |
+| `index.html` | página da campanha — hero, barra de progresso, sidebar (arrecadado/meta/corações/apoiadores), abas (Sobre, Atualizações, Quem ajudou, Vakinha Premiada, Selos), comentários, FAQ, rodapé |
 | `doar.html` | formulário de doação — dados do doador, valor, forma de pagamento (PIX/cartão), bloco "Turbine sua doação", total ao vivo, CTA |
 | `pix.html` | QR Code PIX (BR Code EMV) + copia-e-cola com CRC16, contador de expiração, passo a passo |
 | `cartao.html` | cartão de crédito — Luhn, validade, CVV, parcelamento 1x–12x com recálculo |
@@ -78,7 +78,7 @@ e `assets/js/checkout.js` (fluxo de pagamento).
 ├── assets/
 │   ├── css/   style.css (campanha)  checkout.css (pagamento)  fonts.css
 │   ├── js/    app.js  checkout.js
-│   ├── img/   hero, logo, selo, badges e avatares
+│   ├── img/   hero, logo, selo e badges
 │   ├── fonts/ Lato 400/700/900 e Montserrat 400/700 (woff2, latin + latin-ext)
 │   └── qr/    pix-qr.png
 ├── inventory.json        sha256, origem e bytes de cada arquivo do pacote publicado
@@ -106,9 +106,9 @@ pacote (junto do material de captura do alvo). Aqui fica só o resultado auditad
 
 - **Real (capturado do original):** título da campanha, id, valores (R$ 188.005,52 de
   R$ 250.000,00), apoiadores e corações, categoria, criadora, texto integral do "Sobre",
-  paleta (`#24ca68`, `#009d4e`, `#282828`, `#EEFFE6`), logo, selo, badges, foto e avatares.
+  paleta (`#24ca68`, `#009d4e`, `#282828`, `#EEFFE6`), logo, selo, badges e foto.
 - **De exemplo (preenchido para o layout fechar):** nomes/valores de "Quem ajudou",
-  comentários, FAQ, atualizações, "Outras histórias".
+  comentários, FAQ, atualizações.
 
 Diferenças propositais em relação ao original: hero com outro recorte, chips de valor,
 seções de comentários/FAQ e coleção de selos do rodapé são adições; badges de loja foram

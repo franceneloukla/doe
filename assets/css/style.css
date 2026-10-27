@@ -19,11 +19,10 @@
      8. Abas + painéis (Sobre, Atualizações, Quem ajudou, Premiada, Selos)
      9. Sidebar de doação (progresso, valores, CTA, organizador)
     10. Seções extras (Comentários, FAQ)
-    11. Outras histórias
-    12. Footer
-    13. CTA fixa mobile / toast
-    14. Responsivo (1024 / 900 / 768 / 560 / 390)
-    15. Acessibilidade (foco, reduced motion)
+    11. Footer
+    12. CTA fixa mobile / toast
+    13. Responsivo (1024 / 900 / 768 / 560 / 390)
+    14. Acessibilidade (foco, reduced motion)
 
    MEDIDAS: extraídas da referência renderizada em 1440x900
      container 1110px · coluna esquerda 730px · gap 30px · sidebar 350px
@@ -815,80 +814,6 @@ h1, h2, h3 { margin: 0; font-weight: 700; color: var(--titulo); }
   padding-bottom: 16px;
 }
 
-/* --------------------------------------------- 11. OUTRAS HISTÓRIAS */
-.relacionadas {
-  background: #fff;
-  margin-top: 32px;
-  padding: 48px 0 44px;
-}
-.relacionadas-titulo {
-  font-size: 24px;
-  line-height: 1.3;
-  text-align: center;
-  margin-bottom: 28px;
-}
-.relacionadas-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-.card-relacionada {
-  padding: 12px;
-  transition: box-shadow .18s ease, transform .18s ease;
-}
-.card-relacionada:hover {
-  box-shadow: var(--sombra-card-hover);
-  transform: translateY(-2px);
-}
-.relacionada-figura {
-  position: relative;
-  border-radius: var(--raio);
-  overflow: hidden;
-  aspect-ratio: 230 / 130;
-  background: var(--faixa);
-}
-.relacionada-figura img { width: 100%; height: 100%; object-fit: cover; }
-.relacionada-coracao {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: #dcdcdc;
-  color: #fff;
-}
-.relacionada-titulo {
-  margin-top: 12px;
-  font-size: 16px;
-  line-height: 1.35;
-  color: var(--titulo);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  min-height: 43px;
-}
-.relacionada-valor {
-  margin-top: 10px;
-  font-size: 15px;
-  color: var(--muted);
-}
-.relacionada-valor strong { color: var(--verde-esc); font-weight: 700; }
-.progresso-mini { height: 4px; margin-top: 8px; }
-.relacionada-meta {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  margin-top: 12px;
-  font-size: 13px;
-  color: var(--muted2);
-}
-.relacionada-meta .icone-coracao { width: 13px; height: 13px; color: var(--verde-esc); }
-
 /* ------------------------------------------------------------ 12. FOOTER */
 .footer {
   background: var(--titulo);
@@ -1047,7 +972,6 @@ h1, h2, h3 { margin: 0; font-weight: 700; color: var(--titulo); }
   .valor-grande { font-size: 34px; }
   .footer-colunas { grid-template-columns: repeat(3, 1fr); }
   .footer-col-app { grid-column: auto; }
-  .relacionadas-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 900px) {
@@ -1112,9 +1036,6 @@ h1, h2, h3 { margin: 0; font-weight: 700; color: var(--titulo); }
   .btn-bloco { height: 50px; font-size: 17px; }
   .divisor-painel { margin-left: -16px; margin-right: -16px; }
   .pix-band-conteudo { flex-direction: column; align-items: center; text-align: center; }
-  .relacionadas { padding: 28px 0 32px; }
-  .relacionadas-titulo { font-size: 20px; }
-  .relacionadas-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
   .footer-colunas { grid-template-columns: repeat(2, 1fr); }
   .footer-topo { flex-direction: column; align-items: flex-start; gap: 18px; }
 
@@ -1145,7 +1066,6 @@ h1, h2, h3 { margin: 0; font-weight: 700; color: var(--titulo); }
 
 @media (max-width: 560px) {
   .container { padding: 0 12px; }
-  .relacionadas-grid { grid-template-columns: 1fr; }
   .footer-colunas { grid-template-columns: 1fr; }
   .footer-titulo-vazado { display: none; }
   .abas { gap: 4px; }
