@@ -1,0 +1,7 @@
+# arquivos que não precisam ir para o deploy estático
+qa/
+tools/
+inventory.json
+README.md
+.gitignore
+.vercelignore

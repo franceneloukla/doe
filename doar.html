@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doar para Juntos pela família de Joans | Vakinha</title>
+<meta name="description" content="Faça sua doação para a vaquinha Juntos pela família de Joans. Pix ou cartão de crédito, 100% seguro.">
+<meta name="theme-color" content="#24ca68">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/checkout.css">
+</head>
+<body class="page-checkout" data-pagina="doar">
+
+<a class="pular-para-conteudo" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Vakinha — página inicial">
+      <span class="logo-vakinha" role="img" aria-label="Vakinha"></span>
+    </a>
+
+    <button class="menu-toggle" type="button" id="menu-toggle" aria-expanded="false" aria-controls="nav-principal" aria-label="Abrir menu">
+      <span class="menu-toggle-barra" aria-hidden="true"></span>
+      <span class="menu-toggle-barra" aria-hidden="true"></span>
+      <span class="menu-toggle-barra" aria-hidden="true"></span>
+    </button>
+
+    <nav class="nav-principal" id="nav-principal" aria-label="Menu principal">
+      <ul class="nav-lista">
+        <li class="nav-item">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="submenu-doar">
+            Doar
+            <svg class="icone-seta" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </button>
+          <ul class="submenu" id="submenu-doar" hidden>
+            <li><a href="index.html">Vaquinhas em destaque</a></li>
+            <li><a href="index.html">Buscar vaquinha</a></li>
+            <li><a href="doar.html">Doar agora</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="submenu-arrecadar">
+            Arrecadar
+            <svg class="icone-seta" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </button>
+          <ul class="submenu" id="submenu-arrecadar" hidden>
+            <li><a href="index.html">Criar vaquinha</a></li>
+            <li><a href="index.html">Taxas e prazos</a></li>
+            <li><a href="index.html">Soluções para ONGs</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="submenu-sobre">
+            Sobre
+            <svg class="icone-seta" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+          </button>
+          <ul class="submenu" id="submenu-sobre" hidden>
+            <li><a href="index.html">Quem somos</a></li>
+            <li><a href="index.html">Segurança e transparência</a></li>
+            <li><a href="index.html">Fale conosco</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-acoes">
+      <a class="buscar" href="index.html">
+        <span class="buscar-texto">Buscar</span>
+        <svg class="icone-lupa" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"/></svg>
+      </a>
+      <a class="pill" href="index.html">Entrar</a>
+      <a class="btn btn-primario" href="index.html">Faz uma vaquinha!</a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo" class="checkout-main">
+  <div class="container">
+
+    <!-- ===================== cabeçalho da doação ===================== -->
+    <div class="doar-topo">
+      <p class="doar-topo__link">
+        Já doou no Vakinha? <a href="index.html">Clique aqui</a>
+      </p>
+
+      <h1 class="doar-titulo">Juntos pela família de Joans</h1>
+
+      <p class="meta-chip">
+        <span class="meta-chip__anel" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="#e6f6ec" stroke-width="6"></circle>
+            <circle cx="12" cy="12" r="9" fill="none" stroke="#24ca68" stroke-width="6"
+                    stroke-dasharray="42.4 56.5" stroke-dashoffset="0"
+                    transform="rotate(-90 12 12)" stroke-linecap="butt"></circle>
+          </svg>
+        </span>
+        <span class="meta-chip__pct">75%</span>
+        <span class="meta-chip__txt">da meta batida</span>
+      </p>
+    </div>
+
+    <div id="checkout-aviso" class="checkout-aviso" role="status" aria-live="polite"></div>
+
+    <!-- ========================== formulário ========================== -->
+    <form class="form-doacao" id="form-doacao" novalidate autocomplete="on">
+
+      <div class="form-grid">
+        <div class="campo">
+          <label class="campo__label" for="name">Nome completo</label>
+          <input class="campo__input" id="name" name="name" type="text"
+                 placeholder="Insira seu nome de registro" autocomplete="name"
+                 aria-describedby="erro-name">
+          <p class="campo__erro" id="erro-name" aria-live="polite"></p>
+        </div>
+
+        <div class="campo">
+          <label class="campo__label" for="payerDocument">CPF</label>
+          <input class="campo__input" id="payerDocument" name="payerDocument" type="text"
+                 inputmode="numeric" placeholder="000.000.000-00" autocomplete="off"
+                 aria-describedby="erro-payerDocument">
+          <p class="campo__erro" id="erro-payerDocument" aria-live="polite"></p>
+        </div>
+
+        <div class="campo">
+          <label class="campo__label" for="payerPhone">Telefone (WhatsApp)</label>
+          <input class="campo__input" id="payerPhone" name="payerPhone" type="tel"
+                 inputmode="tel" placeholder="(00) 00000 0000" autocomplete="tel"
+                 aria-describedby="erro-payerPhone">
+          <p class="campo__erro" id="erro-payerPhone" aria-live="polite"></p>
+        </div>
+
+        <div class="campo">
+          <label class="campo__label" for="email">E-mail</label>
+          <input class="campo__input" id="email" name="email" type="email"
+                 placeholder="Insira o seu melhor e-mail" autocomplete="email"
+                 aria-describedby="erro-email">
+          <p class="campo__erro" id="erro-email" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <!-- ----------------------- valor ----------------------- -->
+      <div class="campo campo--valor">
+        <div class="valor-topo">
+          <label class="campo__label" for="amount">Valor da contribuição</label>
+          <div class="valor-chips" role="group" aria-label="Atalhos de valor">
+            <button class="chip" type="button" data-valor="25" aria-pressed="false">R$ 25</button>
+            <button class="chip" type="button" data-valor="50" aria-pressed="false">R$ 50</button>
+            <button class="chip" type="button" data-valor="100" aria-pressed="false">R$ 100</button>
+            <button class="chip" type="button" data-valor="200" aria-pressed="false">R$ 200</button>
+            <button class="chip" type="button" data-valor="outro" aria-pressed="false">Outro</button>
+          </div>
+        </div>
+        <div class="valor-wrap">
+          <span class="valor-prefixo" aria-hidden="true">R$</span>
+          <input class="campo__input valor-input" id="amount" name="amount" type="text"
+                 inputmode="decimal" placeholder="0,00" autocomplete="off"
+                 aria-describedby="erro-amount">
+        </div>
+        <p class="campo__erro" id="erro-amount" aria-live="polite"></p>
+      </div>
+
+      <!-- -------------------- prova social -------------------- -->
+      <div class="destaque-doacao" id="destaque-doacao">
+        <span class="destaque-doacao__icone" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+               stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+            <rect x="2.5" y="6.5" width="15" height="10" rx="1.5"/>
+            <circle cx="10" cy="11.5" r="2.2"/>
+            <path d="M11.5 19.5h7.2a2.3 2.3 0 0 0 2.3-2.3v-3.4"/>
+            <path d="M19.2 17.2l1.9 1.9M21.1 17.2l-1.9 1.9"/>
+          </svg>
+        </span>
+        <p class="destaque-doacao__texto">
+          <strong>Leticia</strong> doou <strong>R$ 100,00</strong>
+        </p>
+        <button class="destaque-doacao__fechar" type="button" id="fechar-destaque"
+                aria-label="Dispensar aviso de doação">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </div>
+
+      <!-- ------------------ forma de pagamento ------------------ -->
+      <fieldset class="pagamento" id="pagamento">
+        <legend class="pagamento__legenda">Forma de pagamento</legend>
+        <div class="pills">
+          <label class="pill-pgto pill-pgto--ativo" aria-checked="true">
+            <input type="radio" name="forma" value="pix" checked>
+            <span class="pill-pgto__bolinha" aria-hidden="true"></span>
+            <span class="pill-pgto__rotulo">Pix</span>
+          </label>
+          <label class="pill-pgto" aria-checked="false">
+            <input type="radio" name="forma" value="cartao">
+            <span class="pill-pgto__bolinha" aria-hidden="true"></span>
+            <span class="pill-pgto__rotulo">Cartão de crédito</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <!-- ------------------- turbine sua doação ------------------- -->
+      <section class="turbine" aria-labelledby="turbine-titulo">
+        <div class="turbine__topo">
+          <input class="turbine__check" type="checkbox" id="turbine">
+          <span class="turbine__selo" id="turbine-titulo">Turbine sua doação</span>
+          <span class="turbine__badge" id="turbine-badge">+ R$ 4,99</span>
+        </div>
+
+        <div class="turbine__cards">
+          <label class="turbine__card" for="numeros-sorte">
+            <input class="turbine__card-check" type="checkbox" id="numeros-sorte">
+            <span class="turbine__icone" aria-hidden="true">🍀</span>
+            <span class="turbine__conteudo">
+              <span class="turbine__titulo">5 números da sorte</span>
+              <span class="turbine__desc">Você e quem criou a vaquinha concorrem ao sorteio de R$ 15.000,00 do Vakinha Premiada</span>
+            </span>
+            <span class="turbine__preco">Grátis</span>
+          </label>
+
+          <label class="turbine__card" for="coracoes">
+            <input class="turbine__card-check" type="checkbox" id="coracoes">
+            <span class="turbine__icone turbine__icone--coracao" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" focusable="false"><path fill="#24ca68" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </span>
+            <span class="turbine__conteudo">
+              <span class="turbine__titulo">5 corações</span>
+              <span class="turbine__desc">Destacam essa vaquinha na plataforma</span>
+            </span>
+            <span class="turbine__preco">R$ 4,99</span>
+          </label>
+        </div>
+      </section>
+
+      <!-- ------------------------- totais ------------------------- -->
+      <div class="totais">
+        <p class="totais__linha">
+          <span class="totais__rotulo">Contribuição:</span>
+          <span class="totais__valor" id="total-contribuicao">R$ 0,00</span>
+        </p>
+        <p class="totais__linha totais__linha--total">
+          <span class="totais__rotulo">Total:</span>
+          <span class="totais__valor" id="total-geral">R$ 0,00</span>
+        </p>
+      </div>
+
+      <label class="atualizacoes" for="atualizacoes">
+        <input type="checkbox" id="atualizacoes" checked>
+        <span>Quero receber atualizações desta vaquinha e de outras iniciativas.</span>
+      </label>
+
+      <button class="btn btn-primario btn-contribuir btn--inativo" type="submit" id="btn-contribuir"
+              data-estado="incompleto">
+        <span class="btn-contribuir__txt">CONTRIBUIR</span>
+        <span class="spinner" aria-hidden="true"></span>
+      </button>
+
+      <!-- ------------------------- rodapé legal ------------------------- -->
+      <div class="checkout-rodape">
+        <p class="checkout-rodape__seguro">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18 8h-1V6a5 5 0 0 0-10 0v2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2zM9 6a3 3 0 0 1 6 0v2H9V6zm3 12a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
+          Garantimos uma experiência segura para todos os nossos doadores.
+        </p>
+        <p class="checkout-rodape__legal">
+          Ao clicar no botão acima você declara que é maior de 18 anos, leu e está de acordo com os
+          <a href="index.html">Termos</a>, <a href="index.html">Taxas e Prazos</a>.
+        </p>
+        <p class="checkout-rodape__legal">
+          Ao realizar uma doação, seu cadastro será criado na base social do Vakinha para receber
+          atualizações das vaquinhas que você apoiar. Você pode cancelar o recebimento a qualquer momento.
+        </p>
+      </div>
+    </form>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-topo">
+      <a class="footer-logo" href="index.html" aria-label="Vakinha — página inicial">
+        <img src="assets/img/logo-vakinha.png" alt="Vakinha" width="95" height="27">
+      </a>
+      <ul class="footer-social" aria-label="Redes sociais">
+        <li><a href="index.html" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.2A6.6 6.6 0 1 0 18.6 12 6.6 6.6 0 0 0 12 5.4zm0 10.9A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3zm6.9-11.2a1.6 1.6 0 1 1-1.6-1.6 1.6 1.6 0 0 1 1.6 1.6z"/></svg>
+        </a></li>
+        <li><a href="index.html" aria-label="Facebook">
+          <svg viewBox="0 0 448 512" width="16" height="18" aria-hidden="true" focusable="false"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+        </a></li>
+        <li><a href="index.html" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3z"/></svg>
+        </a></li>
+        <li><a href="index.html" aria-label="X">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M17.5 3h3.2l-7 8 7.3 10h-5.6l-4.4-6.1L5.7 21H2.5l7.4-8.5L2.9 3h5.7l4.1 5.7zm-1.1 16h1.8L7.6 4.9H5.7z"/></svg>
+        </a></li>
+        <li><a href="index.html" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M16.6 2h-3v12.3a2.7 2.7 0 1 1-2.2-2.6V8.5a6 6 0 1 0 5.2 5.9V9.2a7 7 0 0 0 4 1.3V7.4a4 4 0 0 1-4-4V2z"/></svg>
+        </a></li>
+      </ul>
+    </div>
+
+    <div class="footer-colunas">
+      <div class="footer-col">
+        <h3 class="footer-titulo">Links rápidos</h3>
+        <ul class="footer-lista">
+          <li><a href="index.html">Quem somos</a></li>
+          <li><a href="index.html">Vaquinhas</a></li>
+          <li><a href="index.html">Criar vaquinha</a></li>
+          <li><a href="index.html">Vaquinhas mais amadas</a></li>
+          <li><a href="index.html">Soluções para ONGs</a></li>
+          <li><a href="index.html">Eventos do Vakinha</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-titulo footer-titulo-vazado">&nbsp;</h3>
+        <ul class="footer-lista">
+          <li><a href="index.html">Política de privacidade</a></li>
+          <li><a href="index.html">Termos de uso</a></li>
+          <li><a href="index.html">Dúvidas frequentes</a></li>
+          <li><a href="index.html">Taxas e prazos</a></li>
+          <li><a href="index.html">Loja de corações</a></li>
+          <li><a href="index.html">Vakinha Premiada</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-titulo footer-titulo-vazado">&nbsp;</h3>
+        <ul class="footer-lista">
+          <li><a href="index.html">Blog do Vakinha</a></li>
+          <li><a href="index.html">Segurança e transparência</a></li>
+          <li><a href="index.html">Busca por recibo</a></li>
+          <li><a href="index.html">Verificação de links</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-titulo">Fale conosco</h3>
+        <ul class="footer-lista">
+          <li><a href="index.html">Clique aqui para falar conosco</a></li>
+          <li>De Segunda à Sexta</li>
+          <li>Das 11:00 às 17:30</li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-app">
+        <h3 class="footer-titulo">Baixe nosso App</h3>
+        <a class="loja-badge" href="index.html">
+          <span class="loja-badge-topo">Disponível no</span>
+          <span class="loja-badge-nome">Google Play</span>
+        </a>
+        <a class="loja-badge" href="index.html">
+          <span class="loja-badge-topo">Baixe na</span>
+          <span class="loja-badge-nome">App Store</span>
+        </a>
+        <a class="selo-seguranca" href="index.html" aria-label="Selo de segurança">
+          <svg class="selo-seguranca-icone" viewBox="0 0 28 28" width="30" height="30" aria-hidden="true" focusable="false">
+            <path fill="#0a9d4e" d="M14.00 0.00 L15.49 0.73 L17.12 0.35 L18.41 1.40 L20.07 1.39 L21.10 2.70 L22.73 3.05 L23.44 4.56 L24.95 5.27 L25.30 6.90 L26.61 7.93 L26.60 9.59 L27.65 10.88 L27.27 12.51 L28.00 14.00 L27.27 15.49 L27.65 17.12 L26.60 18.41 L26.61 20.07 L25.30 21.10 L24.95 22.73 L23.44 23.44 L22.73 24.95 L21.10 25.30 L20.07 26.61 L18.41 26.60 L17.12 27.65 L15.49 27.27 L14.00 28.00 L12.51 27.27 L10.88 27.65 L9.59 26.60 L7.93 26.61 L6.90 25.30 L5.27 24.95 L4.56 23.44 L3.05 22.73 L2.70 21.10 L1.39 20.07 L1.40 18.41 L0.35 17.12 L0.73 15.49 L0.00 14.00 L0.73 12.51 L0.35 10.88 L1.40 9.59 L1.39 7.93 L2.70 6.90 L3.05 5.27 L4.56 4.56 L5.27 3.05 L6.90 2.70 L7.93 1.39 L9.59 1.40 L10.88 0.35 L12.51 0.73 Z"/>
+            <circle cx="14" cy="14" r="11.2" fill="#0b7f42"/>
+            <circle cx="14" cy="14" r="10.1" fill="none" stroke="#ffffff" stroke-width="1"/>
+            <path d="M11.7 12.2v-1.4a2.3 2.3 0 0 1 4.6 0v1.4" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M10.9 12.1h6.2a1.1 1.1 0 0 1 1.1 1.1v4.5a1.1 1.1 0 0 1-1.1 1.1h-6.2a1.1 1.1 0 0 1-1.1-1.1v-4.5a1.1 1.1 0 0 1 1.1-1.1z" fill="#f7c62e"/>
+            <circle cx="14" cy="14.5" r=".95" fill="#8a6a10"/>
+            <rect x="13.53" y="15" width=".94" height="1.9" rx=".47" fill="#8a6a10"/>
+          </svg>
+          <span class="selo-seguranca-texto">Selo de<br>segurança</span>
+        </a>
+        <p class="footer-empresa">Vakinha.com.br<br>CNPJ 22.831.673/0001-26<br>Porto Alegre – RS</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-base">
+    <p>© 2026 - Todos direitos reservados</p>
+  </div>
+</footer>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/checkout.js"></script>
+</body>
+</html>

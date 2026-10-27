@@ -1,0 +1,22 @@
+# ---- material de trabalho (nunca versionado) ----
+_scratch/
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- artefatos do QA (caso o harness seja rodado localmente) ----
+qa/shots/
+qa/reference/
+
+# ---- deploy / dependências ----
+.vercel/
+node_modules/
+.DS_Store
+
+# ---- segredos (nunca entram no repo) ----
+.env
+.env.*
+*.pem
+*.key
+tokens/
+secrets/
